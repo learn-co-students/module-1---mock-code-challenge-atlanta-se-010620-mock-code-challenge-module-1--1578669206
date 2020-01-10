@@ -6,5 +6,7 @@ end
 
 
 # Put your variables here~!
-
+rashad = Passenger.new('rashad')
+burly = Driver.new('burly')
+to_mozambique = Ride.new(rashad, burly, 42)
 binding.pry
